@@ -1,6 +1,0 @@
-vhdl isim_temp "Reg.vhd"
-vhdl isim_temp "myPackage.vhd"
-vhdl isim_temp "Mux.vhd"
-vhdl isim_temp "decoder.vhd"
-vhdl isim_temp "RegisterFile.vhd"
-vhdl isim_temp "test1.vhd"
