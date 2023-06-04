@@ -1,0 +1,5 @@
+vhdl work "Reg.vhd"
+vhdl work "myPackage.vhd"
+vhdl work "Mux.vhd"
+vhdl work "decoder.vhd"
+vhdl work "RegisterFile.vhd"

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/ASU/Sophomore/Spring 2022/Computer Organization and Architecture CSE112/Labs/Phase1.1/RegisterFile.xst" -ofn "D:/ASU/Sophomore/Spring 2022/Computer Organization and Architecture CSE112/Labs/Phase1.1/RegisterFile.syr" 
+xst -intstyle ise -ifn "D:/ASU/Sophomore/Spring 2022/Computer Organization and Architecture CSE112/Labs/Phase1.1/RegisterFile.xst" -ofn "D:/ASU/Sophomore/Spring 2022/Computer Organization and Architecture CSE112/Labs/Phase1.1/RegisterFile.syr" 

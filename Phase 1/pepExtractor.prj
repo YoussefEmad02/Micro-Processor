@@ -1,0 +1,5 @@
+work	"Mux.vhd"
+work	"Reg.vhd"
+work	"RegisterFile.vhd"
+work	"decoder.vhd"
+work	"myPackage.vhd"

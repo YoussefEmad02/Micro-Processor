@@ -1,0 +1,363 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: Mux.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Mux.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Mux"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : Mux
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\ASU\Sophomore\Spring 2022\Computer Organization and Architecture CSE112\Labs\Phase1.1\Mux.vhd" into library work
+Parsing entity <Mux>.
+Parsing architecture <Behavioral> of entity <mux>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Mux> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Mux>.
+    Related source file is "D:\ASU\Sophomore\Spring 2022\Computer Organization and Architecture CSE112\Labs\Phase1.1\Mux.vhd".
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[31]_MUX_64_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[30]_MUX_96_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[29]_MUX_128_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[28]_MUX_160_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[27]_MUX_192_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[26]_MUX_224_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[25]_MUX_256_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[24]_MUX_288_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[23]_MUX_320_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[22]_MUX_352_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[21]_MUX_384_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[20]_MUX_416_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[19]_MUX_448_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[18]_MUX_480_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[17]_MUX_512_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[16]_MUX_544_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[15]_MUX_576_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[14]_MUX_608_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[13]_MUX_640_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[12]_MUX_672_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[11]_MUX_704_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[10]_MUX_736_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[9]_MUX_768_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[8]_MUX_800_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[7]_MUX_832_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[6]_MUX_864_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[5]_MUX_896_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[4]_MUX_928_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[3]_MUX_960_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[2]_MUX_992_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[1]_MUX_1024_o> created at line 64.
+    Found 1-bit 32-to-1 multiplexer for signal <Z_3_o_i0[0]_MUX_1056_o> created at line 64.
+    Found 1-bit tristate buffer for signal <output<31>> created at line 64
+    Found 1-bit tristate buffer for signal <output<30>> created at line 64
+    Found 1-bit tristate buffer for signal <output<29>> created at line 64
+    Found 1-bit tristate buffer for signal <output<28>> created at line 64
+    Found 1-bit tristate buffer for signal <output<27>> created at line 64
+    Found 1-bit tristate buffer for signal <output<26>> created at line 64
+    Found 1-bit tristate buffer for signal <output<25>> created at line 64
+    Found 1-bit tristate buffer for signal <output<24>> created at line 64
+    Found 1-bit tristate buffer for signal <output<23>> created at line 64
+    Found 1-bit tristate buffer for signal <output<22>> created at line 64
+    Found 1-bit tristate buffer for signal <output<21>> created at line 64
+    Found 1-bit tristate buffer for signal <output<20>> created at line 64
+    Found 1-bit tristate buffer for signal <output<19>> created at line 64
+    Found 1-bit tristate buffer for signal <output<18>> created at line 64
+    Found 1-bit tristate buffer for signal <output<17>> created at line 64
+    Found 1-bit tristate buffer for signal <output<16>> created at line 64
+    Found 1-bit tristate buffer for signal <output<15>> created at line 64
+    Found 1-bit tristate buffer for signal <output<14>> created at line 64
+    Found 1-bit tristate buffer for signal <output<13>> created at line 64
+    Found 1-bit tristate buffer for signal <output<12>> created at line 64
+    Found 1-bit tristate buffer for signal <output<11>> created at line 64
+    Found 1-bit tristate buffer for signal <output<10>> created at line 64
+    Found 1-bit tristate buffer for signal <output<9>> created at line 64
+    Found 1-bit tristate buffer for signal <output<8>> created at line 64
+    Found 1-bit tristate buffer for signal <output<7>> created at line 64
+    Found 1-bit tristate buffer for signal <output<6>> created at line 64
+    Found 1-bit tristate buffer for signal <output<5>> created at line 64
+    Found 1-bit tristate buffer for signal <output<4>> created at line 64
+    Found 1-bit tristate buffer for signal <output<3>> created at line 64
+    Found 1-bit tristate buffer for signal <output<2>> created at line 64
+    Found 1-bit tristate buffer for signal <output<1>> created at line 64
+    Found 1-bit tristate buffer for signal <output<0>> created at line 64
+    Summary:
+	inferred  32 Multiplexer(s).
+	inferred  32 Tristate(s).
+Unit <Mux> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 32
+ 1-bit 32-to-1 multiplexer                             : 32
+# Tristates                                            : 32
+ 1-bit tristate buffer                                 : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 32
+ 1-bit 32-to-1 multiplexer                             : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Mux> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Mux, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Mux.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 352
+#      LUT6                        : 320
+#      MUXF7                       : 32
+# IO Buffers                       : 1061
+#      IBUF                        : 1029
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  320  out of  63400     0%  
+    Number used as Logic:               320  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    320
+   Number with an unused Flip Flop:     320  out of    320   100%  
+   Number with an unused LUT:             0  out of    320     0%  
+   Number of fully used LUT-FF pairs:     0  out of    320     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                        1061
+ Number of bonded IOBs:                1061  out of    210   505% (*) 
+
+Specific Feature Utilization:
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 2.144ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1696 / 32
+-------------------------------------------------------------------------
+Delay:               2.144ns (Levels of Logic = 5)
+  Source:            S<1> (PAD)
+  Destination:       output<31> (PAD)
+
+  Data Path: S<1> to output<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           256   0.001   0.834  S_1_IBUF (S_1_IBUF)
+     LUT6:I0->O            1   0.097   0.556  Mmux_Z_3_o_i0[31]_MUX_64_o_81 (Mmux_Z_3_o_i0[31]_MUX_64_o_81)
+     LUT6:I2->O            1   0.097   0.000  Mmux_Z_3_o_i0[31]_MUX_64_o_3 (Mmux_Z_3_o_i0[31]_MUX_64_o_3)
+     MUXF7:I1->O           1   0.279   0.279  Mmux_Z_3_o_i0[31]_MUX_64_o_2_f7 (output_31_OBUF)
+     OBUF:I->O                 0.000          output_31_OBUF (output<31>)
+    ----------------------------------------
+    Total                      2.144ns (0.474ns logic, 1.670ns route)
+                                       (22.1% logic, 77.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.95 secs
+ 
+--> 
+
+Total memory usage is 4619188 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
